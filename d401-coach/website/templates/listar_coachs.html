@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <marquee><h1>Listar de suas frases perfeitas</h1></marquee>
+    {% for item in lista %}
+        <p><strong>Nome do coach: </strong>{{item.nome}}</p>
+        <p><strong>Motive-se:</strong> {{item.frase}}</p>
+        <p><strong>Inspirado por: </strong>{{item.inspirador}}</p>
+        <hr>
+    {% endfor %}
+
+</body>
+</html>

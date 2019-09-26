@@ -1,0 +1,17 @@
+*{
+    font-family: 'mansalva' 'cursiva';
+}
+h1{
+    color:red;
+}
+.inspiracao{
+    text-decoration: none;
+    font-size: 15pt;
+    color:  rgb(156, 36, 156, 0.36);
+}
+label{
+    font-size: 14pt;
+}
+input{
+    height: 50px;;
+}

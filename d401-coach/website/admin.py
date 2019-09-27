@@ -3,3 +3,4 @@ from website.models import *
 # Register your models here.
 
 admin.site.register(Coach)
+admin.site.register(Usuario)

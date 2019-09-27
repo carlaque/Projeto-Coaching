@@ -11,7 +11,7 @@ class Coach(models.Model):
     def __str__ (self):
         return self.nome
 
-def Users(models.Model):
-    nome = models.ForeignKey(Coach, on delete = none)
-    emial = models.EmailField(max_length=225, verbose_name='Email')
+class Users(models.Model):
+    # nome = models.ForeignKey(Coach, on_delete = None)
+    emial = models.EmailField(max_length=225, verbose_name='Email', unique=True)
     senha = models.CharField(max_length=16, verbose_name='Senha')

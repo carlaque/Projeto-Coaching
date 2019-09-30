@@ -27,7 +27,7 @@ SECRET_KEY = '=z&zgcqm=*hx_k-kguwpx3l4l7d@y-0zzv18a)vxrk3c*n0y4w'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'alucinacao-coach.herokuapp.com/']
+ALLOWED_HOSTS = ['localhost', 'alucinacao-coach.herokuapp.com']
 
 
 # Application definition
